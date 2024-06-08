@@ -23,7 +23,7 @@ sudo mount -o loop cs111 -base.img mnt
 ## Cleaning up
 
 When cleaning up, you can run the commands
-'sudo unmount mnt'
+'sudo umount mnt'
 
 Then remove the mount with 
  'rmdir mnt'

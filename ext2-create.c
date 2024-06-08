@@ -332,7 +332,7 @@ void write_inode(int fd, u32 index, struct ext2_inode *inode) {
 		errno_exit("write");
 	}
 }
-//Come back and edit the order of the things, but when thinking about it that s the order of the Lost abd found
+
 void write_inode_table(int fd) {
 	u32 current_time = get_current_time();
 
